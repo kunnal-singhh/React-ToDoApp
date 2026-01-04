@@ -12,7 +12,7 @@ const TodoItem = ({todo}) => {
      toggleComplete(todo.id)
   }
   return (
-      <div className={` w-100 w-lg-50  d-flex justify-content-evenly align-items-center gap-2 rounded-3 mt-2 ${todo.completed ?'work-done':'bg-light'}`} style={{padding:'4px 9px',height:'50px',border:'.2px solid #ccc'}}> 
+      <div className={` w-100 w-lg-50  d-flex justify-content-evenly align-items-center gap-2 rounded-3 mt-1 mb-1 ${todo.completed ?'work-done':'bg-light'}`} style={{padding:'4px 9px',height:'50px',border:'.2px solid #ccc'}}> 
       <input 
        type='checkbox'
       checked={todo.completed}

@@ -2,3 +2,21 @@
 .work-done{ 
     background-color: rgba(20, 241, 90, 0.534);
 }
+
+.scrollable-box {
+  /* 1. Set dimensions and enable scrolling */
+   /* Example width */
+  height: 50vh; /* Fixed height for the box */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  padding: 10px; /* Add some padding so text doesn't touch the edges */
+  border: 1px solid #ccc; /* Optional: for visual clarity of the box boundaries */
+  
+  /* 2. Hide the scrollbar for Webkit browsers (Chrome, Safari, Opera) */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* 3. Hide the scrollbar for IE, Edge, and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
