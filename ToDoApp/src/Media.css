@@ -1,0 +1,36 @@
+
+
+@media (max-width: 1400px) {
+    .container-lg, .container-xl, .container-xxl, .container-md{
+        width: 1170px;
+    }
+  
+
+}
+
+@media screen and (max-width:576px){ 
+   .responsive{ 
+    width:100% !important;
+   }
+}
+@media screen and (min-width:576px){ 
+   .responsive{ 
+    width:95% !important;
+   }
+}
+@media screen and (min-width:768px){ 
+   .responsive{ 
+    width:65% !important;
+   }
+}
+@media screen and (min-width:992px){ 
+   .responsive{ 
+    width:55% !important;
+   }
+}
+@media screen and (min-width:1200px){ 
+   .responsive{ 
+    width:45% !important;
+   }
+}
+
