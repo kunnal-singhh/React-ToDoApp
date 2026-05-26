@@ -1,6 +1,6 @@
-# ✅ TaskFlow Todo App
+# ✅ React Todo App
 
-TaskFlow is a responsive Todo application built with React and Vite that helps users manage their daily tasks efficiently.
+It is a responsive Todo application built with React and Vite that helps users manage their daily tasks efficiently.
 
 Users can:
 
