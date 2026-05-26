@@ -63,12 +63,14 @@ ToDoApp/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
+---
 
 ## ⚙️ Installation & Setup
 
 1. Clone the repository
-
+ 
 ```bash
 git clone https://github.com/kunnal-singhh/React-ToDoApp.git
 ```
@@ -83,36 +85,26 @@ cd React-ToDoApp
 
 ```bash
 npm install
----
+```
 
 4. Run the development server:
-
 ```bash
 npm run dev
----
-
-
-
-
+```
 ## 📸 Screenshots
 
 <img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/112cb1b2-cfbb-4689-ad98-3d335fd50d7d" />
 
-
-
+---
 ## 🌐 Live Demo
-
 
 ```bash
 https://todo-list-apk.netlify.app/
 ```
 
-
-
+---
 ## 👨‍💻 Author
 
 Kunal Singh
 
 GitHub: https://github.com/kunnal-singhh
-
----
