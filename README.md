@@ -1,99 +1,112 @@
-# 🌦️ WeathAir
+# ✅ TaskFlow Todo App
 
-WeathAir is a responsive weather web application that provides real-time weather information for any city using the WeatherAPI service.
+TaskFlow is a responsive Todo application built with React and Vite that helps users manage their daily tasks efficiently.
 
-## 🚀 Features
+Users can:
 
-- 🌍 Search weather by city name
-- 🌡️ Real-time temperature updates
-- 💧 Humidity information
-- ☁️ Current weather condition
-- 🌙 Dark mode / Light mode toggle
-- 📱 Fully responsive design
-- ⏳ Loading states while fetching data
-- ❌ Proper error handling for invalid cities
+- ➕ Add new tasks
+- ✏️ Edit existing tasks
+- ❌ Delete tasks
+- ✅ Mark tasks as completed
+
+The application provides a clean and user-friendly interface for organizing tasks and improving productivity.
+
+The project also includes:
+
+- ⚛️ React Component-Based Architecture
+- 📱 Responsive Design for mobile and desktop devices
+- ⚡ Fast performance using Vite
+- 📝 Easy task management
+- 🔄 Context API for state management
 
 ---
 
-## 🛠️ Technologies Used
+# 🚀 Tech Stack Used
 
+## Frontend
+- React.js
+- JavaScript (ES6+)
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
-- Bootstrap 5
-- Font Awesome
-- WeatherAPI
+
+## Build Tool
+- Vite
+
+## State Management
+- React Context API
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```bash
-weatherApp/
+ToDoApp/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── TodoForm.jsx
+│   │   └── TodoItem.jsx
+│   │
+│   ├── contexts/
+│   │   └── TodoContext.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── Media.css
 │
 ├── index.html
-├── css/
-│   ├── style.css
-│   └── media.css
-│
-├── js/
-│   └── script.js
-│
-└── assets/
-```
+├── package.json
+├── vite.config.js
+└── README.md
 
----
 
 ## ⚙️ Installation & Setup
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/kunnal-singhh/weatherApp.git
+git clone https://github.com/kunnal-singhh/React-ToDoApp.git
 ```
 
 2. Navigate to the project folder
 
 ```bash
-cd weatherApp
+cd React-ToDoApp
 ```
 
-3. Open `index.html` in your browser
+3. Install the dependencies
 
+```bash
+npm install
 ---
 
-## 🔑 API Used
+4. Run the development server:
 
-This project uses:
-
-- WeatherAPI  
-  https://www.weatherapi.com/
-
+```bash
+npm run dev
 ---
+
+
+
 
 ## 📸 Screenshots
 
-### Light Mode
-
-<img width="1919" height="931" alt="image" src="https://github.com/user-attachments/assets/5e2ded16-46e5-47f2-809c-0fb5b3e9f6a8" />
+<img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/112cb1b2-cfbb-4689-ad98-3d335fd50d7d" />
 
 
-### Dark Mode
-
-<img width="1919" height="926" alt="image" src="https://github.com/user-attachments/assets/ab3f569a-22c2-43f7-a513-8aa2b3bda99f" />
-
-
----
 
 ## 🌐 Live Demo
 
-(Add deployed link here)
-
-Example:
 
 ```bash
-https://weathair.netlify.app/
+https://todo-list-apk.netlify.app/
 ```
+
 
 
 ## 👨‍💻 Author
